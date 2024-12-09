@@ -6,6 +6,7 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import WheelMenu from '@/components/navigation/WheelMenu1';
 import WheelMenu2 from '@/components/navigation/WheelMenu2';
+import WheelMenu3 from '@/components/navigation/WheelMenu3';
 
 export default function HomeScreen() {
   return (
@@ -14,6 +15,7 @@ export default function HomeScreen() {
 
         <WheelMenu/>
         <WheelMenu2/>
+        <WheelMenu3/>
     </ScrollView>
   );
 }
