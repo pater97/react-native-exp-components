@@ -23,5 +23,5 @@ export interface InputProps extends ComponentProps<typeof TextInput> {
   isValid?:boolean;
   placeholder?:string;
   keyboardType?:KeyboardType;
-  selectionColor?:'string';
+  selectionColor?:string;
 }
